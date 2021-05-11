@@ -1,0 +1,17 @@
+[package]
+name = "hello-nickel"
+version = "0.1.0"
+authors = ["Centell <centell@me.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies.nickel]
+version = "*"
+# If you are using the 'nightly' rust channel you can uncomment
+# the line below to activate unstable features
+# features = ["unstable"]
+
+# Some examples require the `rustc_serialize` crate, which will
+# require uncommenting the lines below
+
+[dependencies]
